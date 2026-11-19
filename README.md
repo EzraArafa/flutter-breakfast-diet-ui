@@ -1,17 +1,20 @@
-# fitness
+# 🥞 Breakfast & Diet UI — Flutter App
 
-A new Flutter project.
+Aplikasi mobile antarmuka pengguna (UI) untuk rekomendasi menu sarapan dan diet sehat yang dibangun menggunakan **Flutter** dan **Dart**. Proyek ini berfokus pada penerapan *clean layout*, penggunaan aset vektor (`SVG`), pemisahan data menggunakan *Model Class*, serta komponen *scrollable list* horizontal dan vertikal.
 
-## Getting Started
+## 📸 Tampilan Aplikasi
 
-This project is a starting point for a Flutter application.
+<p align="center">
+  <img src="screenshots/home_preview.png" alt="App Preview" width="320"/>
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Fitur & Implementasi Teknis
+* **Custom AppBar & Search Bar:** Menggunakan `TextField` dengan dekorasi bayangan lembut (*BoxShadow*), `prefixIcon`, dan `suffixIcon` dengan `VerticalDivider`.
+* **Horizontal Category & Diet Lists:** Implementasi `ListView.separated` horizontal dengan kartu gradasi warna (*LinearGradient*) dan indikator status seleksi.
+* **Popular Diet Section:** Daftar menu vertikal dengan kartu dinamis dan tombol aksi interaktif.
+* **Data Modeling:** Pemisahan struktur data menggunakan model (`CategoryModel`, `DietModel`, `PopularDietsModel`) agar kode UI tetap bersih dan terstruktur.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack & Package
+* **Framework:** Flutter
+* **Language:** Dart
+* **Packages:** `flutter_svg`
